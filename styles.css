@@ -10,6 +10,13 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 35%;
+}
+
 body {
 background: #236547;
 display: flex;
@@ -74,5 +81,15 @@ opacity: 0.9;
 
 button:active {
 opacity: 0.8;
+
+}
+
+@media (max-width: 800px) {
+
+    h2, input, .input-min, button {
+    width: 100%;
+
+    }
+
 
 }
